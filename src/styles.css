@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #141a12;
+  --color-surface: #1c2418;
+  --color-raised: #24301e;
+  --color-fg: #ebe6d4;
+  --color-muted: #9aa58e;
+  --color-accent: #d6f25a;
+  --color-accent-fg: #141a12;
+  --color-amber: #e6b35a;
+  --color-border: #2c3826;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --radius-md: 0.5rem;
+}
+
+@layer base {
+  html {
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+  body {
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    min-height: 100%;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-accent-fg);
+  }
+}
+
+.token-key { color: var(--color-accent); }
+.token-str { color: var(--color-amber); }
+.token-com { color: var(--color-muted); font-style: italic; }
+.token-num { color: var(--color-amber); }
+.token-pre { color: var(--color-accent); }

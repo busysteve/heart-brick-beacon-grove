@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "ResNet CUDA",
+      "hasCanvas": false,
+      "bodyTextLen": 1748,
+      "bodyTextHash": "c76890d9fa8a63d244b850452178f9f017f6c16774a8047e6cfb41c47e4e205a",
+      "bodyTextPrefix": "C++ / CUDA ResNet CUDA Convolutional residual blocks for MNIST. ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "ResNet CUDA",
+      "hasCanvas": false,
+      "bodyTextLen": 1181,
+      "bodyTextHash": "dfeb70f495b50fcd94e2487738f41c101ce348ac731a7bcb86863bccfa00d47f",
+      "bodyTextPrefix": "C++ / CUDA ResNet CUDA Convolutional residual blocks for MNIST. ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
